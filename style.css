@@ -1,0 +1,115 @@
+/* a{
+    background-color: brown;
+} */
+
+/* 
+p{
+    color: blue;
+    background-color: black;
+    padding: 50px;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+
+    padding: 50px 100px 20px 1000px;
+    margin: 50px 200px;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    text-align: justify;
+    text-decoration: line-through;
+    border-color: brown;
+    border-width: 10px;
+    border-style: double;
+    border : 10px double brown;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+} */
+
+.mydiv {
+    height: 100vh;
+    width: 100%;
+    border: 1px solid red;
+    /* background-color: aquamarine; */
+    /* background-image: url('https://i.tribune.com.pk/media/images/1950242-FAST_NU_Islamabadfb-1555218523/1950242-FAST_NU_Islamabadfb-1555218523.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    background: linear-gradient(blue,red);
+
+
+}
+
+
+
+.navbar {
+    /* background-color: black; */
+    /* opacity: 0.5; */
+    /* color: white; */
+
+    /* background-color: #bc2727; */
+    /* background-color: rgb(100, 200, 300); */
+    /* background-color: hsl(100, 200%, 10%); */
+    background-color: rgba(50, 600, 300, 0.5);
+
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    /* border-radius: 80% 20% 31% 69% / 51% 58% 42% 49% ; */
+    margin: 10%;
+    padding: 2%;
+    /* width: 100px;
+    height: 100px; */
+}
+
+.navbar li a {
+    color: black;
+    font-weight: 900;
+    /* color: wheat; */
+    text-decoration: none;
+    /* background-color: aqua; */
+}
+
+.navbar li {
+    display: inline;
+    /* background-color: blue;
+    padding: 10px; */
+}
+
+li.active a{
+    color: red;
+}
+
+
+.navbar li a:hover{
+    color: aquamarine;
+}
+
+
+/* .navbar li:first-child{
+    background-color: blue;
+}
+
+.navbar li:last-child{
+    background-color: blueviolet;
+} */
+
+
+.navbar li:nth-child(2n+2){
+    background-color: blue;
+}
+
+p{
+    text-shadow: 110px 20px 50px red;
+    box-shadow: 10px 10px 10px 20px blue;
+}
+
+
