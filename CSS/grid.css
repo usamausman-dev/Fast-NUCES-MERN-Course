@@ -1,0 +1,21 @@
+.grid {
+    background-color: #454545;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 100px) 1fr;
+}
+
+.grid-child {
+    background-color: red;
+    margin: 10px;
+}
+
+.target {
+    background-color: blue;
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-column: 2/5;
+    /* grid-row-start: 2;
+    grid-row-end: 4; */
+    /* grid-row: 2/ 7; */
+}

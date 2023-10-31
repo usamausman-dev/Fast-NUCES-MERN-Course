@@ -1,0 +1,62 @@
+/* body{
+    background-color: aqua;
+} */
+
+.flex {
+    background-color: aqua;
+    display: flex;
+    flex-direction:row;
+    color: blue;
+    font-size: 3rem;
+    /* height: 20vh; */
+    /* justify-content: center;
+    align-items: center; */
+    /* flex-wrap: wrap; */
+    gap: 5px;
+
+
+}
+
+.flex-child {
+    /* background-color: red; */
+    border: 2px solid red;
+    /* width: 100px;
+    height: 300px; */
+    margin: 10px;
+    flex-basis: 200px;
+}
+
+
+/* 320px — 480px: Mobile devices. */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .flex {
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* 481px — 768px: iPads, Tablets. */
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .flex {
+        background-color: blue;
+    }
+}
+
+
+/* 769px — 1024px: Small screens, laptops. */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .flex {
+        background-color: green;
+    }
+}
+
+/* 1025px — 1200px: Desktops, large screens. */
+
+@media (min-width: 1025px) {
+    .flex {
+        background-color: yellow;
+    }
+}

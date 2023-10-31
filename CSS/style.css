@@ -1,0 +1,94 @@
+/* * {
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+} */
+
+/* p {
+    color: red;
+    background-color: black;
+    border: 10px solid blue;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 10px 10px 10px green;
+    box-shadow: 20px 20px 50px 20px orange;
+} */
+
+div {
+    border: 5px solid red;
+    margin: 1% 0;
+    /* padding: 10px; */
+    /* height: 500px; */
+    /* overflow: scroll; */
+}
+
+/* div p {
+    border: 1px dashed green;
+    margin: 200px;
+    padding: 200px;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGDJS_V11mwpY0soGuHTzCT4gf_nj1TrX_vg&usqp=CAU');
+    background-repeat:no-repeat;
+    background-size: contain;
+} */
+
+/* div p a{
+    border: 1px double orange;
+    display: none;
+    visibility: hidden;
+    padding: 100px 0;
+    display: inline-block;
+
+} */
+
+
+.circle {
+    width: 100px;
+    height: 100px;
+    /* background-color: aquamarine; */
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 165px 0px rgba(0, 0, 0, 0.75);
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+}
+
+.circle i {
+    font-size: 2.6rem;
+    animation-name: iconanim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes iconanim {
+    0% {
+        font-size: 1.6rem;
+        color: red;
+        transform: rotate(30deg);
+    }
+
+    50% {
+        font-size: 2 rem;
+        color: green;
+        transform: rotate(90deg);
+
+    }
+
+    100% {
+        font-size: 2.6rem;
+        color: blue;
+        transform: rotate(230deg);
+
+    }
+
+}
+
+/* p{
+    background-color: aqua;
+}
+
+.text1{
+    float: right;
+    border: 1px solid red;
+} */
