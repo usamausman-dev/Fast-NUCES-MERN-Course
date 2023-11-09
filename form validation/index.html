@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form onsubmit="submitForm(event)">
+        <input type="text" placeholder="Name" required name="name" onblur="checkValid(this)">
+        <input type="email" placeholder="Name@email.com" required name="email" onblur="checkValid(this)">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+<script>
+    function checkValid(input) {
+
+        var patterns = {
+            name: /[A-Z]{5,}/,
+            email: /^[\w\-\.\+]+\@[a-zA-Z0-9\. \-]+\.[a-zA-z0-9]{2,4}$/
+        }
+
+        switch (input.name) {
+            case 'name':
+                // var checkInput = input.value.match(pattern)
+                if (!input.value.match(patterns.name)) {
+                    input.style.border = '1px solid red'
+                }
+                break;
+
+            case 'email':
+                if (!input.value.match(patterns.email)) {
+                    console.log("yes")
+                    input.style.border = '1px solid blue'
+                }
+                break;
+
+            default:
+                break;
+        }
+
+
+
+        // console.log(input)
+    }
+</script>
+
+</html>
